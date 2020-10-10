@@ -86,7 +86,8 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
-                        android:textAppearance="@style/price" />
+                        android:textSize="24sp"
+                        android:textColor="#fff"/>
 
                     <View
                         android:id="@+id/right_arrow"
@@ -141,7 +142,8 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
-                        android:textAppearance="@style/price" />
+                        android:textSize="24sp"
+                        android:textColor="#fff"/>
 
                     <View
                         android:id="@+id/right_arrow"
@@ -196,7 +198,8 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
-                        android:textAppearance="@style/price" />
+                        android:textSize="24sp"
+                        android:textColor="#fff"/>
 
                     <View
                         android:id="@+id/right_arrow"
@@ -251,7 +254,8 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
-                        android:textAppearance="@style/price" />
+                        android:textSize="24sp"
+                        android:textColor="#fff"/>
 
                     <View
                         android:id="@+id/right_arrow"
@@ -306,7 +310,8 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
-                        android:textAppearance="@style/price" />
+                        android:textSize="24sp"
+                        android:textColor="#fff"/>
 
                     <View
                         android:id="@+id/right_arrow"
