@@ -16,4 +16,9 @@
 
     <string name="textPersonalData">Личные данные</string>
 
+
+    <string name="price">13 500 $</string>
+
+    <string name="marketplace">MarketPlace</string>
+
 </resources>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <!-- CarElement -->
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:minHeight="?attr/actionBarSize"
+            app:navigationIcon="@drawable/left_arrow">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="MarketPlace"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="25dp">
+                    <!-- car_image -->
+                    <!-- price -->
+                    <!-- Union -->
+
+                    <View
+                        android:id="@+id/carelement"
+                        android:layout_width="330dp"
+                        android:layout_height="160dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginLeft="42dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginRight="42dp"
+                        android:background="@drawable/car_image" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/carelement"
+                        android:layout_alignLeft="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="11dp"
+                        android:gravity="top"
+                        android:lineSpacingExtra="0sp"
+                        android:text="@string/price"
+                        android:textAppearance="@style/price" />
+
+                    <View
+                        android:id="@+id/right_arrow"
+                        android:layout_width="16dp"
+                        android:layout_height="13dp"
+                        android:layout_alignTop="@+id/carelement"
+                        android:layout_alignEnd="@+id/carelement"
+                        android:layout_alignRight="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginTop="126dp"
+                        android:layout_marginEnd="29dp"
+                        android:layout_marginRight="29dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/right_arrow" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="25dp">
+                    <!-- car_image -->
+                    <!-- price -->
+                    <!-- Union -->
+
+                    <View
+                        android:id="@+id/carelement"
+                        android:layout_width="330dp"
+                        android:layout_height="160dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginLeft="42dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginRight="42dp"
+                        android:background="@drawable/car_image" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/carelement"
+                        android:layout_alignLeft="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="11dp"
+                        android:gravity="top"
+                        android:lineSpacingExtra="0sp"
+                        android:text="@string/price"
+                        android:textAppearance="@style/price" />
+
+                    <View
+                        android:id="@+id/right_arrow"
+                        android:layout_width="16dp"
+                        android:layout_height="13dp"
+                        android:layout_alignTop="@+id/carelement"
+                        android:layout_alignEnd="@+id/carelement"
+                        android:layout_alignRight="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginTop="126dp"
+                        android:layout_marginEnd="29dp"
+                        android:layout_marginRight="29dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/right_arrow" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="25dp">
+                    <!-- car_image -->
+                    <!-- price -->
+                    <!-- Union -->
+
+                    <View
+                        android:id="@+id/carelement"
+                        android:layout_width="330dp"
+                        android:layout_height="160dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginLeft="42dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginRight="42dp"
+                        android:background="@drawable/car_image" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/carelement"
+                        android:layout_alignLeft="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="11dp"
+                        android:gravity="top"
+                        android:lineSpacingExtra="0sp"
+                        android:text="@string/price"
+                        android:textAppearance="@style/price" />
+
+                    <View
+                        android:id="@+id/right_arrow"
+                        android:layout_width="16dp"
+                        android:layout_height="13dp"
+                        android:layout_alignTop="@+id/carelement"
+                        android:layout_alignEnd="@+id/carelement"
+                        android:layout_alignRight="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginTop="126dp"
+                        android:layout_marginEnd="29dp"
+                        android:layout_marginRight="29dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/right_arrow" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="25dp">
+                    <!-- car_image -->
+                    <!-- price -->
+                    <!-- Union -->
+
+                    <View
+                        android:id="@+id/carelement"
+                        android:layout_width="330dp"
+                        android:layout_height="160dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginLeft="42dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginRight="42dp"
+                        android:background="@drawable/car_image" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/carelement"
+                        android:layout_alignLeft="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="11dp"
+                        android:gravity="top"
+                        android:lineSpacingExtra="0sp"
+                        android:text="@string/price"
+                        android:textAppearance="@style/price" />
+
+                    <View
+                        android:id="@+id/right_arrow"
+                        android:layout_width="16dp"
+                        android:layout_height="13dp"
+                        android:layout_alignTop="@+id/carelement"
+                        android:layout_alignEnd="@+id/carelement"
+                        android:layout_alignRight="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginTop="126dp"
+                        android:layout_marginEnd="29dp"
+                        android:layout_marginRight="29dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/right_arrow" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="25dp">
+                    <!-- car_image -->
+                    <!-- price -->
+                    <!-- Union -->
+
+                    <View
+                        android:id="@+id/carelement"
+                        android:layout_width="330dp"
+                        android:layout_height="160dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginLeft="42dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginRight="42dp"
+                        android:background="@drawable/car_image" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/carelement"
+                        android:layout_alignLeft="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="11dp"
+                        android:gravity="top"
+                        android:lineSpacingExtra="0sp"
+                        android:text="@string/price"
+                        android:textAppearance="@style/price" />
+
+                    <View
+                        android:id="@+id/right_arrow"
+                        android:layout_width="16dp"
+                        android:layout_height="13dp"
+                        android:layout_alignTop="@+id/carelement"
+                        android:layout_alignEnd="@+id/carelement"
+                        android:layout_alignRight="@+id/carelement"
+                        android:layout_alignBottom="@+id/carelement"
+                        android:layout_marginTop="126dp"
+                        android:layout_marginEnd="29dp"
+                        android:layout_marginRight="29dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/right_arrow" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
