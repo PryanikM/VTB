@@ -15,5 +15,8 @@
     <string name="e_mail">Почта</string>
 
     <string name="textPersonalData">Личные данные</string>
+    <string name="nextStep">Следующий шаг</string>
+
+
 
 </resources>

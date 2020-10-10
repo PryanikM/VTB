@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:width="13.86dp"
-    android:height="12.36dp"
-    android:viewportWidth="13.86"
-    android:viewportHeight="12.36">
-    <group>
-
-        <clip-path android:pathData="M0 0H13.8625V12.3582H0V0Z"
-            tools:ignore="VectorRaster" />
-
-        <path
-            android:fillColor="#3A83F1"
-            android:pathData="M0 0V12.3582H13.8625V0" />
-
-    </group>
-
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor= "#3A83F1"
+        android:pathData="M15.41,16.09l-4.58,-4.59 4.58,-4.59L14,5.5l-6,6 6,6z" />
 </vector>

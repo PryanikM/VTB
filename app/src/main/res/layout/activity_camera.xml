@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".Camera">
 
+
+
+
+
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
