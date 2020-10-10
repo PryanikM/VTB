@@ -64,9 +64,10 @@ public class ClientInfo extends AppCompatActivity {
                 if (keyCode == event.KEYCODE_ENTER) {
 
                     birthDate.requestFocus();
+                    return true;
                 }
 
-                return true;
+                return false;
             }
         });
 
