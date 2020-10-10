@@ -149,7 +149,7 @@ public class ClientInfo extends AppCompatActivity {
                     phoneNumber.requestFocus();
                 } else if (phoneNumber.getText().hashCode() == s.hashCode() &&
                         phoneNumber.getText().length() == 18) {
-                    buttonClick(button.getRootView());
+                    phoneNumber.clearFocus();
                 }
             }
         };

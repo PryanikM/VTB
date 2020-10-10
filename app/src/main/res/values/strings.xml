@@ -16,6 +16,11 @@
 
     <string name="textPersonalData">Личные данные</string>
     <string name="nextStep">Следующий шаг</string>
+    <string name="autoCost">Стоимость автомобиля</string>
+    <string name="ourCredite">Ваш автокредит></string>
+
+    <string name="firstContribution">Первоначальный взнос</string>
+    <string name="timeCredit">Срок кредита</string>
 
 
 

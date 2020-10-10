@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:weight = "0.2"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/left_arrow">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text= "@string/ourCredite"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/elements_02"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/standard_vs"
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/standard_vs"
+            android:weight="0.5">
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/autoCost"
+                android:textAppearance="@style/textCostAuto" />
+
+            <EditText
+                android:id="@+id/autoCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:gravity="top"
+                android:lineSpacingExtra="1sp"
+                android:text="@string/firstContribution"
+                android:textAppearance="@style/some_id"
+                android:translationY="-0.62sp" />
+
+            <View
+                android:id="@+id/line_4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/line_4" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/standard_vs1"
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/standard_vs"
+            android:clipToOutline="true">
+
+            <TextView
+                android:id="@+id/firstContribution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/firstContribution"
+                android:textAppearance="@style/textCostAuto" />
+
+            <EditText
+                android:id="@+id/firstContributionEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="39dp"
+                android:gravity="top"
+                android:lineSpacingExtra="1sp"
+                android:text="@string/some_id"
+                android:textAppearance="@style/some_id"
+                android:translationY="-0.62sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textTimeCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="13"
+            android:gravity="top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/timeCredit"
+            android:textAppearance="@style/textCostAuto" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
