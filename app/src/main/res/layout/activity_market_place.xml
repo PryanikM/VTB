@@ -86,8 +86,9 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
+                        android:textColor="#fff"
                         android:textSize="24sp"
-                        android:textColor="#fff"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/right_arrow"
@@ -142,8 +143,9 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
+                        android:textColor="#fff"
                         android:textSize="24sp"
-                        android:textColor="#fff"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/right_arrow"
@@ -198,8 +200,9 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
+                        android:textColor="#fff"
                         android:textSize="24sp"
-                        android:textColor="#fff"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/right_arrow"
@@ -254,8 +257,9 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
+                        android:textColor="#fff"
                         android:textSize="24sp"
-                        android:textColor="#fff"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/right_arrow"
@@ -310,8 +314,9 @@
                         android:gravity="top"
                         android:lineSpacingExtra="0sp"
                         android:text="@string/price"
+                        android:textColor="#fff"
                         android:textSize="24sp"
-                        android:textColor="#fff"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/right_arrow"
