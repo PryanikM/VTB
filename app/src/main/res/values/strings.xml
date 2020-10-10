@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">VTB</string>
+    <string name="login">Login</string>
+    <string name="income_amount">Сумма дохода</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+
+
+    <string name="phone_number">Мобильный телефон</string>
+    <string name="birth_date_time">Дата рождения(дд.мм.гггг)</string>
+    <string name="surname">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="patronymic">Отчество</string>
+    <string name="e_mail">Почта</string>
+
+    <string name="textPersonalData">Личные данные</string>
+
 </resources>
