@@ -9,10 +9,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="dp"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:clipToOutline="true">
 
         <TextView
@@ -44,23 +42,25 @@
     <EditText
         android:id="@+id/name"
         android:lineSpacingExtra="1sp"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
         android:hint="@string/name"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
+        android:clipToOutline="true"
         android:padding="15dp"
         android:textSize="15sp"
         android:inputType="textPersonName"
         android:background="@drawable/edit_text_custom"
         android:textAppearance="@styles/text"
-        />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
 
     <EditText
         android:id="@+id/surname"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
         android:hint="@string/surname"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -69,12 +69,15 @@
         android:fontFamily="@font/roboto_regular"
         android:inputType="textEmailAddress"
         android:background="@drawable/edit_text_custom"
-        android:textSize="15sp" />
+        android:clipToOutline="true"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
 
     <EditText
         android:id="@+id/patronymic"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
         android:hint="@string/patronymic"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -82,13 +85,17 @@
         android:padding="15dp"
         android:fontFamily="@font/roboto_regular"
 
+        android:layout_alignParentLeft="true"
+        android:clipToOutline="true"
+
         android:background="@drawable/edit_text_custom"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/birth_date_time"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
         android:hint="@string/birth_date_time"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -96,13 +103,17 @@
         android:padding="15dp"
         android:fontFamily="@font/roboto_regular"
 
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+
         android:background="@drawable/edit_text_custom"
         android:textSize="15sp" />
 
     <EditText
         android:id="@+id/phone_number"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
         android:hint="@string/phone_number"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -113,24 +124,24 @@
         android:background="@drawable/edit_text_custom"
         android:textSize="15sp" />
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <Button
-            android:id="@+id/btn_register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_custom"
-            android:fontFamily="@font/roboto_regular"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="30dp"
-            android:layout_centerInParent="true"
-            android:textColor="@android:color/white"
-            android:text="@string/register"/>
+        <View
+            android:id="@+id/rent_button"
+            android:layout_width="189dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="85.5dp"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/rent_button"
+            />
 
     </RelativeLayout>
+
 
 </LinearLayout>
