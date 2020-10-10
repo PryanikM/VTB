@@ -108,7 +108,9 @@ public class ClientInfo extends AppCompatActivity {
 
     public void buttonClick(View view) {
 
-        Log.d("CHECK123", String.valueOf(checkEditText()));
+        if (checkEditText()){
+            makeJSON();
+        }
     }
 
     private boolean checkEditText() {
@@ -152,6 +154,15 @@ public class ClientInfo extends AppCompatActivity {
             }
         };
 
+
+    }
+
+    private void makeJSON(){
+        Log.d("JSON", surname.getText().toString());
+        Log.d("JSON", name.getText().toString());
+        Log.d("JSON", patronymic.getText().toString());
+        Log.d("JSON", formatWatcherBirthDate.getMask().toUnformattedString());
+        Log.d("JSON", formatWatcherNumber.getMask().toUnformattedString());
 
     }
 }
