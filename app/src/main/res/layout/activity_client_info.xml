@@ -8,12 +8,25 @@
 
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/elements_02"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.2"
-        android:background="@drawable/elements_02">
+        android:background="#fff"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/left_arrow">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="MarketPlace"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </androidx.appcompat.widget.Toolbar>
 
         <TextView
             android:id="@+id/textPersonalData"
