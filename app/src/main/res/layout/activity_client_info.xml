@@ -134,6 +134,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:background="@drawable/rent_button"
+
             />
 
     </RelativeLayout>
